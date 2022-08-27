@@ -26,10 +26,10 @@ body {
   padding-left: 1rem;
   padding-right: 2rem;
   z-index: 9999;
-  /* position: fixed; */
-  top:0%;
-right: 0%;
-left: 0%;
+  position: fixed;
+  top: 0%;
+  right: 0%;
+  left: 0%;
 }
 .heder .logo {
   width: 13rem;
@@ -89,8 +89,12 @@ a {
 /* heder end*/
 /* section 1 */
 .car .car1 {
+  width: 100%;
   display: flex;
   position: relative;
+  top: 0%;
+  right: 0%;
+  left: 0%;
 }
 .text1 {
   font-size: 2rem;
@@ -99,7 +103,7 @@ a {
   position: absolute;
   text-align: center;
   top: 30%;
-  padding: 0rem 10rem;
+  padding: 0rem, 10rem;
   letter-spacing: 0.1rem;
   line-height: 1rem;
 }
@@ -129,7 +133,7 @@ a {
   color: white;
   text-align: center;
 
-  padding: 10rem 10rem;
+  padding: 10rem, 10rem;
   letter-spacing: 0.05rem;
   line-height: 2.5rem;
 }
@@ -228,7 +232,7 @@ a {
 }
 
 .section4 img {
-width: 100%;
+  width: 100%;
 }
 
 .section4 .text5 {
@@ -422,13 +426,11 @@ width: 100%;
   width: 100%;
 
   background-color: rgba(49, 49, 49, 0.459);
-  /* display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column; */
+  display: flex;
+  flex-direction: column;
   text-align: center;
   padding: 5rem;
-  line-height: 3rem;
+  line-height: 5rem;
   list-style: 1rem;
 }
 .section7 .what {
@@ -436,12 +438,9 @@ width: 100%;
   font-size: 5rem;
   font-weight: 100;
   font-style: oblique;
-  margin-left: 35%;
-  margin-right: 50%;
 }
 .section7 .text123 {
   text-align: center;
-  margin-left: 15rem;
 }
 .section7 .name1 {
   font-size: 2rem;
@@ -519,12 +518,12 @@ width: 100%;
   font-size: 5rem;
   color: white;
   font-weight: 100;
- }
+}
 .footer .ouress {
   font-weight: 700;
   font-size: 5rem;
   color: white;
- }
+}
 .footer .tell {
   display: flex;
   align-items: center;
