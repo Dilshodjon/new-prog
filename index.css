@@ -21,12 +21,15 @@ body {
   border-bottom: 0.1rem solid white;
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  gap: 2rem;
+  justify-content: center;
+  /* gap: 2rem; */
   padding-left: 1rem;
   padding-right: 2rem;
   z-index: 9999;
-  position: fixed;
+  /* position: fixed; */
+  top:0%;
+right: 0%;
+left: 0%;
 }
 .heder .logo {
   width: 13rem;
@@ -225,7 +228,7 @@ a {
 }
 
 .section4 img {
-  margin-left: 28.8%;
+width: 100%;
 }
 
 .section4 .text5 {
