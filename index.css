@@ -1683,6 +1683,29 @@ a {
     width: 100%;
     background-color: rgba(20, 20, 20, 0.911);
     border-bottom: 0.1rem solid white;
+    display:none;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 1rem;
+    padding-right: 2rem;
+    z-index: 9999;
+    position: fixed;
+    top: 0%;
+    right: 0%;
+    left: 0%;
+    
+  }
+  .up .logo {
+    width: 25rem;
+    padding: 2rem;
+  }
+   .pagedown {
+    display: none;
+   }
+   .up{
+        width: 100%;
+    background-color: rgba(20, 20, 20, 0.911);
+    border-bottom: 0.1rem solid white;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -1693,16 +1716,19 @@ a {
     top: 0%;
     right: 0%;
     left: 0%;
-  }
-  .heder .logo {
-    width: 25rem;
-    padding: 1.5rem;
-  }
-   .pagedown {
-    display: none;
+    display: block;
+    height: 5rem;
+    display: flex;
    }
-   .up{
-display: block;
+   .up .ups{
+    font-size: 2rem;
+    width: 10rem;
+   }
+  .up .upss{
+    background-color: rgb(10, 10, 10);
+  }
+    .up i{
+    
    }
 
   a {
@@ -1710,7 +1736,7 @@ display: block;
     color: white;
     font-size: 2rem;
   }
-  .pagedown a {
+  .up a {
     text-decoration: none;
     color: white;
     padding: 2rem;
@@ -1719,31 +1745,26 @@ display: block;
     align-items: center;
     justify-items: ;
   }
-  .pagedown a:hover {
+  .up a:hover {
     text-decoration: none;
     color: rgb(202, 12, 12);
     transition: 0.8s;
   }
-  .pagedown .tugma {
+  .upss .tugma {
     background-color: transparent;
     border: none;
     font-size: 2rem;
     align-items: center;
     justify-content: center;
-    padding-bottom: 1rem;
+    margin-left: 1rem;
     font-weight: 600;
   }
-  .pagedown .tugma:hover {
-    text-decoration: none;
-    background: transparent;
-    color: rgb(202, 12, 12);
-    transition: 0.8s;
-  }
-  .pagedown .tugmacha {
-    background-color: rgba(12, 11, 11, 0.712);
-    width: 15rem;
-  }
-  .pagedown .tugmachalar {
+
+ 
+   .upss .tugmachalar {
+        background-color: rgba(97, 93, 93, 0.924);
+     width: 25rem;
+
     color: white;
     font-weight: 300;
     font-size: 2rem;
@@ -1751,7 +1772,7 @@ display: block;
     padding-top: 0.3rem;
     padding-left: 2rem;
   }
-  .pagedown .tugmachalar:hover {
+  .upss .tugmachalar:hover {
     color: white;
     padding-left: 0.3rem;
     background-color: rgb(228, 23, 23);
